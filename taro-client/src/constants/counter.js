@@ -1,0 +1,8 @@
+const USERINFO = 'USERINFO'
+const OPENID = 'OPENID'
+const CARTYPE = 'CARTYPE'
+export {
+  USERINFO,
+  OPENID,
+  CARTYPE
+}

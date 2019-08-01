@@ -1,0 +1,40 @@
+.j-reel-item {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #f0c159;
+  display: flex;
+  flex-direction: row;
+  padding: 10pt;
+  border-radius: 10px;
+  align-items: center;
+  .j-reel-item-left {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .j-reel-item-left-name {
+    color: white;
+    font-size: 14pt;
+    display: flex;
+  }
+
+  .j-reel-item-left-name-detail {
+    color: white;
+    font-size: 8pt;
+    display: flex;
+  }
+
+  .j-reel-item-right {
+    display: flex;
+    position: absolute;
+    right: 40px;
+  }
+
+  .j-reel-item-right-price {
+    color: white;
+    font-size: 16pt;
+    display: flex;
+  }
+}

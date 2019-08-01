@@ -1,0 +1,61 @@
+.car-info {
+  .dialog_bottom_view {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .dialog_bottom {
+    display: flex;
+    flex: 0 0 25%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .item_normal {
+    text-align: center;
+    font-size: 10pt;
+    background: white;
+    border-style: solid;
+    border-width: 4px;
+    padding: 12px;
+    border-color: #e5e5e5;
+    border-radius: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .item_select {
+    color: red;
+  }
+
+  .extra-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 104px;
+    padding-left: 24px;
+    font-size: 32px;
+    .extra-image {
+      width: 56px;
+      height: 56px;
+      margin-right: 24px;
+      margin-left: 24px;
+    }
+    .extra-text {
+      margin-right: 36px;
+      font-size: inherit;
+    }
+    .extra-input {
+      color: #ddd;
+      font-size: inherit;
+    }
+  }
+  .add_item_button {
+    background-color: #19a8e2;
+    font-size: 32px;
+    line-height: 2;
+    margin: 20px 24px 0;
+  }
+}

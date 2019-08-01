@@ -1,0 +1,44 @@
+.promt {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .img {
+    width: 218px;
+    height: 196px;
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 28px;
+    margin-bottom: 30px;
+    .phone {
+      color: #6b8efc;
+    }
+  }
+  .section {
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto;
+    .input {
+      margin-left: 6px;
+      font-size: 28px;
+    }
+  }
+  .btn {
+    background-color: #5dcad1;
+    color: #fff;
+    font-size: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 70%;
+    margin-top: 30px;
+    &.btn_active {
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+const WORKETINFO = 'WORKETINFO'
+const USERINFO = 'USERINFO'
+const OPENID = 'OPENID'
+export {
+  WORKETINFO,
+  USERINFO,
+  OPENID
+}
